@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.sub-con{
+    min-width: 400px;
+    max-width: 800px;
+}
+.header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px auto;
+}
+.form-control{
+    display: block;
+    padding: 5px;
+}
+input[type=text], input[type=submit]{
+    width: 100%;
+    padding: 5px;
+    border: 0.5px solid #ddd;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.book-lists{
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+}
+table{
+    width: 100%;
+    text-align: left;
+}
+    .success, .error {
+      color: white;
+      padding: 5px;
+      margin: 5px 0 15px 0;
+    }
+
+    .success {
+      background: green;
+    }
+
+    .error {
+      background: red;
+    }

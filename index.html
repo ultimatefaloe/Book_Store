@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTE Book Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sub-con">
+            <div class="header">
+                Welcome to UTE Book store
+            </div>
+            <div class="add-book">
+                <form action="" id="book-form">
+                    <div class="form-control">
+                        <div>
+                            <label for="title">Book Title</label>
+                        </div>
+                        <input type="text" name="" id="title">
+                    </div>
+                    <div class="form-control">
+                        <div>
+                            <label for="title">Book Author</label>
+                        </div>
+                        <input type="text" name="" id="author">
+                    </div>
+                    <div class="form-control">
+                        <div>
+                            <label for="title">ISBN</label>
+                        </div>
+                        <input type="text" name="" id="isbn">
+                    </div>
+                    <div class="form-control">
+                        <input type="submit" name="">
+                    </div>
+                </form>
+            </div>
+            <hr>
+            <div  class="book-lists">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Book Title</th>
+                            <th>Book Author</th>
+                            <th>Book ISBN</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="book-lists"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
